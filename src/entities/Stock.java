@@ -54,7 +54,7 @@ public class Stock {
 		} else {
 			this.quantity += quantity;
 			if (this.quantity > 500) {
-				System.out.println("Invalid quantity, maximum quantity is 500, the stock has been updated, the system automatically set the quantity to 500 and the remaining quantity is " + (this.quantity - 500));
+				System.out.println("Invalid quantity, maximum quantity is 500, the stock has been updated automatically and the remaining quantity is " + (this.quantity - 500));
                 this.quantity = 500;
             }
 			 
